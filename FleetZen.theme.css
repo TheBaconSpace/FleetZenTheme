@@ -9,7 +9,10 @@
 }
 
 @import url(https://rawgit.com/AlexFlipnote/Discord_Theme/master/assets/highlightJS.css);
-
+.channel-members .member.member-status-online .member-inner .member-activity-text strong {color: #43b581}
+.channel-members .member.member-status-idle .member-inner .member-activity-text strong {color: #faa61a}
+.channel-members .member.member-status-dnd .member-inner .member-activity-text strong {color: #f04747}
+.channel-members .member.member-status-offline .member-inner .member-activity-text strong {color: #636b75}
 .avatar-large[style*="/a_"]+.comment .username-wrapper:before {
     background: url('https://canary.discordapp.com/assets/65f0a0df5563e21de7b1aeeafaf31d78.svg') 50% 50% / contain no-repeat;
     float:left;
